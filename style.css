@@ -1,0 +1,111 @@
+.form{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 55px;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    text-align: right;
+}
+
+.form .form-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form .form-row{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.form h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  black;
+    font-size: 30px;
+    padding: 0 10px 15px;
+    margin: 0;
+}
+
+.form h2{
+    color:  black;
+    font-size: 15px;
+    padding: 0 10px 15px;
+    margin: 0;
+}
+
+.form h3{
+    color:  black;
+    text-align: left;
+    font-size: 15px;
+    margin: 0;
+}
+
+.form .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: black;
+    width: 180px;
+    text-align: left;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.form input{
+    color:  black;
+    box-sizing: border-box;
+    width: 360px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
+
+.form input[type=radio]{
+    box-shadow: none;
+    width: auto;
+}
+
+.form textarea{
+    color:  black;
+    box-sizing: border-box;
+    width: 240px;
+    height: 80px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font: normal 13px sans-serif;
+    padding: 12px;
+    resize: vertical;
+}
+
+.form .form-radio-buttons{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form .form-radio-buttons label span{
+    margin-left: 8px;
+    color: black;
+    font-weight: normal;
+}
+
+.form button{
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    background-color:  blue;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
